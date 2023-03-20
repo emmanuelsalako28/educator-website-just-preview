@@ -643,123 +643,121 @@ hr.new1 {
   letter-spacing: 0em;
   text-align: left;
 }
-#contact-faa{
- color: #46A724;
- font-size: 30px;
+#contact-faa {
+  color: #46a724;
+  font-size: 30px;
 }
 .foot-imagesss {
   display: flex;
   width: 80%;
   padding-left: 20px;
 }
-#barcode{
+#barcode {
   padding-top: 16%;
   width: 40%;
- 
 }
-#barcode img{
+#barcode img {
   width: 100%;
-   border-radius: 20px;
+  border-radius: 20px;
 }
 
-.about-section-second{
- display: flex;
- justify-content: space-between;
+.about-section-second {
+  display: flex;
+  justify-content: space-between;
 
- gap: 6%;
- padding-top: 15%;
- padding-bottom: 15%;
+  gap: 6%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
-.single-banner{
-  width: 100%;
-}
-.single-banner img{
+.single-banner {
   width: 100%;
 }
-
-.about-our-vision{
-width: 33%;
-background: #EDEFF9;
-border: 2px solid #EDEFF9;
-border-radius: 10px;
+.single-banner img {
+  width: 100%;
 }
 
-.about-our-vision h1{
-font-family: Inter;
-font-size: 34px;
-font-weight: 700;
-line-height: 41px;
-letter-spacing: 0em;
-text-align: center;
-padding-top: 5%;
-padding-bottom: 5%;
-}
-.about-our-vision p{
-font-family: Manrope;
-font-size: 20px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: left;
-width: 89%;
-padding-left: 10%;
-/* padding-bottom: 20%; */
-}
-.about-our-mission{
-width: 33%;
-border: 2px solid #46A724;
-border-radius: 10px;
-}
-.about-our-mission h1{
-font-family: Inter;
-font-size: 34px;
-font-weight: 700;
-line-height: 41px;
-letter-spacing: 0em;
-text-align: center;
-padding-top: 5%;
-padding-bottom: 5%;
-}
-.about-our-mission p{
-font-family: Manrope;
-font-size: 20px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: left;
-width: 80%;
-padding-left: 15%;
-padding-bottom: 30%;
+.about-our-vision {
+  width: 33%;
+  background: #edeff9;
+  border: 2px solid #edeff9;
+  border-radius: 10px;
 }
 
-
-.about-more-info{
-width: 33%;
-background: #EDEFF9;
-border: 2px solid #EDEFF9;
-border-radius: 10px;
+.about-our-vision h1 {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.about-our-vision p {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 89%;
+  padding-left: 10%;
+  /* padding-bottom: 20%; */
+}
+.about-our-mission {
+  width: 33%;
+  border: 2px solid #46a724;
+  border-radius: 10px;
+}
+.about-our-mission h1 {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.about-our-mission p {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 80%;
+  padding-left: 15%;
+  padding-bottom: 30%;
 }
 
-.about-more-info h1{
-font-family: Inter;
-font-size: 34px;
-font-weight: 700;
-line-height: 41px;
-letter-spacing: 0em;
-text-align: center;
-padding-top: 5%;
-padding-bottom: 5%;
+.about-more-info {
+  width: 33%;
+  background: #edeff9;
+  border: 2px solid #edeff9;
+  border-radius: 10px;
 }
-.about-more-info p{
-font-family: Manrope;
-font-size: 20px;
-font-weight: 700;
-line-height: 27px;
-letter-spacing: 0em;
-text-align: left;
-width: 85%;
-padding-left: 15%;
-padding-bottom: 30%;
+
+.about-more-info h1 {
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.about-more-info p {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 85%;
+  padding-left: 15%;
+  padding-bottom: 30%;
 }
 
 @media screen and (max-width: 1175px) {
@@ -959,7 +957,7 @@ padding-bottom: 30%;
     text-align: left;
     padding: 20px;
   }
-  .position-3 {
+  /* .position-3 {
     display: grid;
     grid-auto-flow: dense;
 
@@ -967,34 +965,51 @@ padding-bottom: 30%;
     padding: 0px 0px 40px 20px;
     width: 100%;
     gap: 10px;
+  } */
+  .Scolarship {
+    overflow: hidden;
+    padding: 10px;
+    gap: 12px;
   }
+.position-3 {
+    width: 100%;
+    padding: unset !important;
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+}
 
+  .position-3 > div {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px;
+    height: 190px;
+  }
   .first-position {
-    grid-column-end: span 3;
-    width: 55%;
+    /* width: 30%;
     border-radius: 10px;
     border: 1px solid gray;
     display: flex;
     flex-direction: column;
     padding: 10px;
     background: #edeff9;
-    margin-left: 20%;
+    margin-left: 20%; */
   }
   .second-position {
-    padding: 10px;
-    width: 50%;
+    /* padding: 10px;
+    width: 30%;
     border-radius: 10px;
     border: 1px solid gray;
-    display: flex;
-    flex-direction: column;
+    display: flex; */
   }
   .third-position {
-    padding: 10px;
-    width: 50%;
+    /* padding: 10px;
+    width: 30%;
     border-radius: 10px;
     border: 1px solid gray;
     display: flex;
-    flex-direction: column;
+     */
   }
 
   .second-position img {
