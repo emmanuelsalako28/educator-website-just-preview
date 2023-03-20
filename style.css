@@ -457,6 +457,18 @@ nav a:hover {
   border-radius: 10px solid black;
 }
 
+/* arrow-up area */
+.arrow-up{
+  right: 0%;
+  position: fixed;
+  top: 97%;
+}
+
+.arrow-images img{
+  width: 20%;
+  border: 3px solid black;
+  border-radius: 40px;
+}
 /* footer section */
 
 footer {
