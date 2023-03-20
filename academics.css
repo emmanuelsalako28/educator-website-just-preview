@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fdfdfe;
+}
+
+/* header part */
+header {
+  width: 100%;
+}
+
+/* Navigation in header */
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 20px 50px;
+  align-items: center;
+  width: 70%;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.nagivation {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none;
+  color: #8e98a8;
+
+  transition: background-color, color;
+}
+nav a:hover {
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: green;
+  cursor: pointer;
+}
+/* header logo */
+.head-pic {
+  width: 20%;
+  padding-left: 50px;
+}
+.head-pic img {
+  width: 80%;
+}
+.hamburger {
+  display: none;
+}
+
+/* Image and heading at the top of page.  */
+.academicImage{
+    display: flex;
+    width: 100%;
+    height: 275px;
+    background-image: url(images/Group\ 3.png);
+    background-size: cover;
+}
+
+.academicImage h1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 400; 
+    margin-top: 142px; 
+    margin-left: 145px;
+
+}
+.academicImage span{
+    border-bottom: 1px solid white;
+}
+
+/* Dropdown sections */
+button{
+    display: flex;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0em;
+    border: none;
+    background-color: white;
+    align-items: center;
+}
+
+button img{
+    margin-right: 16px;
+}
+
+.container{   
+    align-items: center;
+    justify-content: center;
+    margin-left: 73px;
+    margin-right: 73px;
+}
+
+.mainInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 29px;
+    margin-bottom: 56px;
+}
+
+.firstP{
+    font-size: 24px;    
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.045em;
+    text-align: left;
+}
+
+.paragraph_image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+
+.paragraph_image p{
+    width: 586px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: left;
+}
+
+.lastP{  
+    margin-top: 56px; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.content_div{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.content_p2{
+    margin-top: 24px;
+}
+
+.img2{
+    margin-left: 97px;
+    margin-right: 0;
+}
+
+.img1{
+    width: 465px;
+    height: 280px;
+    margin-right: 97px;
+}
+
+.content p{    
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.05em;     
+}
+
+.collapsible {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+}
+
+.explore{
+    width: auto;
+    height: 477px;    
+    display: flex;    
+    flex-direction: column;
+    margin-bottom: 145px;
+}
+
+.explore h1{
+    height: 54px;
+    width: auto;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.045em;
+    text-align: center;  
+}
+
+.explore h1 img{
+    margin-left: 14px;
+}
+
+.explore_content{
+    width: auto;
+    height: 317px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.explore_content img{
+    width: 446px;
+    height: 234px;
+    border-radius: 15px;
+    margin-top: 76px;
+}
+
+.explore_content h2{
+    width: 446px;
+    border-bottom: 2px solid black;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    margin-top: 24px;
+}
+
