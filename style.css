@@ -893,37 +893,56 @@ hr.new1 {
     text-align: left;
   }
   .prog-images {
-    display: flex;
+     width: 100%;
+    padding: unset !important;
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    
+    /* display: flex;
     padding: 0px;
     justify-content: space-between;
     width: 100%;
     display: grid;
     grid-auto-flow: dense;
-    height: fit-content;
+    height: fit-content; */
+  }
+  .prog-images > div{
+        width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 8px;
+    
   }
   .imagess {
     width: 100%;
   }
+  .imagess img{
+    width: 100%;
+  }
   #creaa {
-    grid-auto-flow: dense;
+    /* grid-auto-flow: dense;
     grid-column-end: span 3;
-    width: 55%;
-    border-radius: 4.910179615020752px;
+    width: 100%; */
+    width: 100%;
+    /* border-radius: 4.910179615020752px; */
   }
   #prim {
-    /* width: 53%; */
+    /* width: 53%;
     height: 172.83831787109375px;
-    width: 164px;
+    width: 100%;
     left: 0px;
     top: 0px;
-    border-radius: 4.910179615020752px;
+    border-radius: 4.910179615020752px; */
+    width: 100%;
   }
   #sece {
-    height: 172.83831787109375px;
-    width: 164px;
+    /* height: 172.83831787109375px;
+   width: 100%;
     left: 0px;
     top: 0px;
-    border-radius: 4.910179615020752px;
+    border-radius: 4.910179615020752px; */
+    width: 100%;
   }
   #sece img {
     width: 100%;
@@ -957,15 +976,7 @@ hr.new1 {
     text-align: left;
     padding: 20px;
   }
-  /* .position-3 {
-    display: grid;
-    grid-auto-flow: dense;
-
-    justify-content: space-between;
-    padding: 0px 0px 40px 20px;
-    width: 100%;
-    gap: 10px;
-  } */
+ 
   .Scolarship {
     overflow: hidden;
     padding: 10px;
