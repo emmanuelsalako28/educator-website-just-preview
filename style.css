@@ -819,9 +819,11 @@ hr.new1 {
     display: flex;
     width: 100%;
     padding-left: 10%;
+    filter: brightness(60%);
   }
   #mobile-pic img {
     width: 100%;
+    
   }
   .right {
     width: 100%;
