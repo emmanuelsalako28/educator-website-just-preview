@@ -182,7 +182,7 @@ font-size: 48px;
 font-weight: 700;
 line-height: 58px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 padding: 0px 25px;
 }
 .prog-images {
@@ -218,7 +218,7 @@ font-size: 48px;
 font-weight: 700;
 line-height: 58px;
 letter-spacing: 0em;
-text-align: left;
+text-align: center;
 padding-bottom: 5%;
 padding-left: 1.3% ;
 }
@@ -297,22 +297,23 @@ padding-left: 1.3% ;
   align-self: center;
 }
 .second-position h3 {
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: center;
-  padding: 10px;
+ font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+padding: 20px 10px 10px 20%;
+
 }
 .second-position p {
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 100;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: center;
-  padding: 10px;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+padding: 20px 10px 10% 20%;
 }
 
 .first-position h3 {
