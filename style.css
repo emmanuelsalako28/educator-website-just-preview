@@ -188,13 +188,13 @@ padding: 0px 25px;
 .prog-images {
   display: flex;
   padding: 50px 30px;
-  width: 90%;
+  width: 95%;
 }
 .imagess {
   width: 100%;
 }
 .imagess img {
-  width: 90%;
+  width: 85%;
   border-radius: 10px;
 }
 .imagess a {
@@ -359,13 +359,13 @@ padding: 20px 10px 10% 20%;
 }
 
 .lefffty-images {
-  width: 90%;
+  width: 70%;
   text-align: center;
   align-items: center;
   /* margin-left: 10%; */
 }
 .lefffty-images img {
-  width: 60%;
+  width: 40%;
   border-radius: 10px;
 }
 
