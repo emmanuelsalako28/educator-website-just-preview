@@ -498,9 +498,9 @@ footer {
   padding-bottom: 50px; */
 }
 .foot-left {
-   padding-left: 5%;
-   /* padding-top: 4%; */
-   width: 30%;
+  padding-left: 5%;
+  /* padding-top: 4%; */
+  width: 30%;
 }
 
 .foot-images {
@@ -511,41 +511,36 @@ footer {
 .foot-images img {
   width: 100%;
 }
-.foot-section-3{
+.foot-section-3 {
   display: flex;
   width: 65%;
-    padding-top: 6%;
-    justify-content: space-between;
+  padding-top: 6%;
+  justify-content: space-between;
 }
 .foot-left p {
-font-family: Inter;
-font-size: 20px;
-font-style: italic;
-font-weight: 600;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
-   padding-left: 20%;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 20%;
   color: #83ab23;
-
 }
 .righttty {
-
-
   width: 40%;
   display: flex;
   flex-direction: column;
   line-height: 50px;
 }
 .righttty h1 {
- font-family: Manrope;
-font-size: 36px;
-font-weight: 600;
-line-height: 49px;
-letter-spacing: 0em;
-text-align: left;
-
-
+  font-family: Manrope;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 
 .list-item {
@@ -557,13 +552,12 @@ text-align: left;
   text-align: left;
   text-decoration: none;
 
- color: black;
-
+  color: black;
 }
 .list-item ul {
   list-style-type: none;
 }
-.list-item a{
+.list-item a {
   color: black;
 }
 .faaa {
@@ -597,13 +591,12 @@ text-align: left;
   color: #46a724;
 }
 .foot-middle h1 {
-font-family: Manrope;
-font-size: 36px;
-font-weight: 600;
-line-height: 49px;
-letter-spacing: 0em;
-text-align: left;
-
+  font-family: Manrope;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .foot-middle li {
   font-family: "Manrope", sans-serif;
@@ -624,13 +617,12 @@ text-align: left;
 }
 /*  */
 .foot-right h1 {
- font-family: Manrope;
-font-size: 36px;
-font-weight: 600;
-line-height: 49px;
-letter-spacing: 0em;
-text-align: left;
-
+  font-family: Manrope;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
 }
 .foot-right li {
   font-family: "Manrope", sans-serif;
@@ -1224,61 +1216,6 @@ hr.new1 {
     width: 100%;
   }
 
-  .righttty {
-    background: #edeff9;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    line-height: 0px;
-  }
-  .righttty h1 {
-    text-align: center;
-    font-family: Inter;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0em;
-  }
-
-  .list-item {
-    color: black;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: center;
-    padding: 00px 80px;
-  }
-  .list-item ul {
-    list-style-type: none;
-  }
-  .list-item li a {
-    color: rgb(10, 10, 10);
-  }
-  .righttty-btn {
-    padding: 10px 50px;
-    margin-bottom: 0%;
-  }
-  .righttty-btn button {
-    background-color: #46a724;
-    color: white;
-    width: 60%;
-
-    padding: 8px 8px;
-    font-size: 15px;
-    font-family: inter;
-    border-radius: 10px;
-    border: 2px solid #46a724;
-    transition: backgroundcolor, color;
-  }
-  .righttty-btn button:hover {
-    background-color: white;
-    color: green;
-    border: 2px solid yellowgreen;
-    cursor: grab;
-  }
-
   .testimonies h1 {
     text-align: center;
     font-family: Inter;
@@ -1334,10 +1271,10 @@ hr.new1 {
     align-items: center;
     margin-left: 50%;
   }
-.ending-btn-web {
-  text-align: center;
-  padding: 9%;
-}
+  .ending-btn-web {
+    text-align: center;
+    padding: 9%;
+  }
 
   .ending-btn-web button {
     font-family: Inter;
@@ -1360,37 +1297,79 @@ hr.new1 {
   }
 
   footer {
-    background: #e9ebf8;
     display: flex;
-    justify-content: space-evenly;
-    /* padding-top: 50px;
-  padding-bottom: 50px; */
+    justify-content: space-between;
+    background: #e9ebf8;
+    width: 100%;
   }
   .foot-left {
-    /* padding-left: 15%; */
+    width: 30%;
+      padding-top: 3%;
   }
   .foot-images {
-    width: 90%;
-    padding-left: 10px;
+    width: 100%;
   }
   .foot-images img {
-    width: 80%;
+    width: 100%;
   }
-  .foot-left p {
-    font-family: Inter;
-    font-size: 14px;
-    font-style: italic;
+  .foot-section-3 {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6%;
+  }
+  .foot-middle h1 {
+    font-family: Manrope;
+    font-size: 10px;
     font-weight: 600;
-    line-height: 5px;
+    line-height: 13px;
     letter-spacing: 0em;
     text-align: left;
-
-    color: #83ab23;
-    padding-left: 20px;
   }
-
+  .foot-middle li {
+    font-family: Manrope;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 9px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .foot-right h1 {
+    font-family: Manrope;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .foot-right li {
+    font-family: Manrope;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 9px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .righttty h1 {
+    font-family: Manrope;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .righttty li {
+    font-family: Manrope;
+    font-size: 7px;
+    font-weight: 500;
+    line-height: 9px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
   .faaa {
     padding-left: 10px;
+    font-size: 1rem;
+    display: flex;
   }
   .fa {
     padding: 20px;
@@ -1399,7 +1378,22 @@ hr.new1 {
 
     text-decoration: none;
 
-    font-size: 30px;
+    font-size: 10px;
+  }
+  .foot-left p {
+    font-family: Inter;
+    font-size: 4px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 5px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+    .list-item ul {
+    list-style-type: none;
+  }
+  .list-item a {
+    color: black;
   }
 
   .fa:hover {
@@ -1419,51 +1413,8 @@ hr.new1 {
   }
   .foot-middle {
   }
-  .foot-middle h1 {
-    font-family: Manrope;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-top: 40px;
-    padding-right: 10px;
-  }
-  .foot-middle li {
-    font-family: Manrope;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
+   .foot-middle a {
     text-decoration: none;
-  }
-  .foot-middle ul {
-    list-style-type: none;
-    text-decoration: none;
-  }
-  .foot-middle a {
-    text-decoration: none;
-  }
-  .foot-right h1 {
-    font-family: Manrope;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-top: 40px;
-    padding-right: 10px;
-  }
-  .foot-right li {
-    font-family: Manrope;
-    font-size: 9px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0em;
-
-    text-decoration: none;
-    padding: 0px;
   }
   .foot-right ul {
     list-style-type: none;
