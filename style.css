@@ -682,6 +682,7 @@ hr.new1 {
   display: flex;
   justify-content: space-around;
   padding: 10%;
+  padding-bottom: 4%;
 }
 .contact-section-images {
   width: 55%;
@@ -710,6 +711,50 @@ hr.new1 {
   text-align: left;
   width: 60%;
   padding: 10% 00%;
+}
+.section-below-barcode img {
+  width: 100%;
+}
+.section-below-barcode {
+  background-color: #3d3d3d;
+  border-radius: 10px;
+  height: 211px;
+  width: 211px;
+  left: 0px;
+  top: 0px;
+}
+.section-below-images img {
+  width: 70%;
+}
+.section-below-text {
+  width: 75%;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.section-below-barcode {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.section-below-text p {
+  width: 100%;
+  padding-left: 10%;
+}
+
+.section-below {
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
 }
 .contact-section-right h6 {
   font-family: Inter;
@@ -1304,7 +1349,7 @@ hr.new1 {
   }
   .foot-left {
     width: 30%;
-      padding-top: 3%;
+    padding-top: 3%;
   }
   .foot-images {
     width: 100%;
@@ -1389,7 +1434,7 @@ hr.new1 {
     letter-spacing: 0em;
     text-align: left;
   }
-    .list-item ul {
+  .list-item ul {
     list-style-type: none;
   }
   .list-item a {
@@ -1413,7 +1458,7 @@ hr.new1 {
   }
   .foot-middle {
   }
-   .foot-middle a {
+  .foot-middle a {
     text-decoration: none;
   }
   .foot-right ul {
@@ -1453,5 +1498,96 @@ hr.new1 {
     line-height: 6px;
     letter-spacing: 0em;
     text-align: left;
+  }
+  /* Contact Us section Media Queries */
+  .contact-section-images {
+    width: 100%;
+    text-align: center;
+  }
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-bottom: 10%;
+  }
+  .contact-section-right {
+    width: 70%;
+    background: #e9fff2b2;
+    margin-left: 19%;
+    padding-left: 5%;
+  }
+  .contact-section-right h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 8%;
+  }
+  .contact-section-right p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 86%;
+  }
+  .contact-section-right h6 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  #call-us {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .section-below {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+  .section-below-barcode {
+    height: 120.00000762939453px;
+    width: 120.00000762939453px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    margin-left: 46%;
+  }
+  .section-below-barcode h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .section-below-text {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .section-below-text p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .section-below-images{
+    
   }
 }
