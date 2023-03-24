@@ -1658,4 +1658,12 @@ hr.new1 {
     width: 100%;
     padding-bottom: 20%;
      }
+     .single-banner {
+  width: 100%;
+  background-image: url(https://s3-alpha-sig.figma.com/img/b39b/b753/f104a36e7ce2a5aab13303f9c3a54818?Expires=1679875200&Signature=NJ18kZPZXpfNeIXi7lcDbyIIpSrmBbwSgs4rliVT8RgvR1b2eChCPD7TJWiseDMAmuSPMvMGADeZaC50-GgRwoQGoeuu5S59C6WkjqtKY8viyXBkrkWi7Chp7xfJ-C5OSPjKjKaPduJUoJ6hnkfQuH6pSvIIWKAqrrrAwwByJp8vzyUzUtBmxwXDCDJWQFgxPs3lF2fQKifjzq1NXMh5LKcsmJYfU0AuAC3UKjfWwFeFq-qP6HbwayAPth7EEYSrPKslqYHEAJ8NmOk4lMsezknu-jkJxjRECKPbI4yDllbICQTZJqj7HdQ8Qy7PslUxNIGzFmNFnVfeiXnA1Wn4eg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  height: 430px;
+  background-position: center;
+  background-size: cover;
+}
+
 }
