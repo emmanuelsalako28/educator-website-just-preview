@@ -1587,7 +1587,75 @@ hr.new1 {
     letter-spacing: 0em;
     text-align: left;
   }
-  .section-below-images{
-    
+  .section-below-images {
   }
+  .about-section-second {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .about-our-vision {
+    width: 70%;
+    margin: 10% auto;
+  }
+  .about-our-mission {
+    width: 70%;
+    margin: 10% auto;
+  }
+  .about-more-info {
+    width: 70%;
+    margin: 10% auto;
+  }
+  .about-more-info h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .about-more-info p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 90%;
+  }
+  .about-our-mission h1 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .about-our-mission p{
+        font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 90%;
+  }
+   .about-our-vision h1{
+       font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+   }
+     .about-our-vision p{
+             font-family: Manrope;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100%;
+    padding-bottom: 20%;
+     }
 }
