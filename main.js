@@ -12,3 +12,12 @@ for (i = 0; i < coll.length; i++) {
         }
     });
 }
+
+/* Open */
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+  }

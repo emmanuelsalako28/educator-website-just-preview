@@ -8,6 +8,14 @@
     <title>St Peters School</title>
     <link rel="stylesheet" href="academics.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 </head>
 
@@ -22,14 +30,28 @@
                 <h3><a href="index.html">Home</a></h3>
                 <h3><a href="academics.html">Academics</a></h3>
                 <h3><a href="admission.html">Admission</a></h3>
-                <h3><a href="contactus.html">Contact Us</a></h3>
-                <h3><a href="" target=”_blank”>About Us</a></h3>
+                <h3><a href="contactus.html" target="”_blank”">Contact Us</a></h3>
+                <h3><a href="aboutus.html" target="”_blank”">About Us</a></h3>
             </nav>
-            <div class="hamburger">
-                <img src="https://i.postimg.cc/43hLX1RS/image-removebg-preview-1.png" alt="" />
+            <div class="hamburger" onclick="openNav()">
+                <i class="fa-solid fa-bars fa-3x"></i>
             </div>
         </div>
     </header>
+
+    <div id="myNav" class="overlay">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+            <h3><a href="index.html">Home</a></h3>
+            <h3><a href="academics.html">Academics</a></h3>
+            <h3><a href="admission.html">Admission</a></h3>
+            <h3><a href="contactus.html" target="”_blank”">Contact Us</a></h3>
+            <h3><a href="aboutus.html" target="”_blank”">About Us</a></h3>
+        </div>
+    </div>
 
     <div class="academicImage">
         <h1><span>Aca</span>demics</h1>
@@ -47,7 +69,7 @@
                     School, we recognize the significance of this decision and strive to provide an educational
                     experience that nurtures our students' potential in every facet of their lives.
                 </p>
-                
+
             </div>
             <p class="lastP">Check out our curriculum and how we organize learning at the various stages</p>
         </section>
@@ -55,7 +77,7 @@
         <section class="dropdown">
             <button type="button" class="collapsible"><img src="images/Arrow.png" alt=""> Creche</button>
             <section class="content">
-                <div class="content_div">                    
+                <div class="content_div">
                     <p class="content_p1">
                         <img class="img1" src="images/Creche img.png" alt="">
                         At St. Peters School, we understand that choosing a Creche for your child is an important
@@ -93,8 +115,8 @@
                         program
                         is designed to cater to the unique needs of children aged 5 to 10 years old, ensuring that they
                         receive
-                        a well-rounded education that covers all aspects of their development.                    
-                </p>
+                        a well-rounded education that covers all aspects of their development.
+                    </p>
                 </div>
                 <p class="content_p2">We have a team of highly qualified and experienced teachers who are dedicated to
                     ensuring that our
@@ -116,7 +138,7 @@
 
             <button type="button" class="collapsible"><img src="images/Arrow.png" alt=""> Secondary</button>
             <section class="content">
-                <div class="content_div">                    
+                <div class="content_div">
                     <p>
                         <img class="img1" src="images/Group secondary.png" alt="">
                         Our secondary school program is designed to provide students with a challenging and supportive
@@ -131,7 +153,8 @@
                         student to ensure that they receive individualized attention and support. Our experienced
                         teachers
                         are
-                        committed to helping each student reach their full potential and excel in their academics.</p>
+                        committed to helping each student reach their full potential and excel in their academics.
+                    </p>
                 </div>
                 <p class="content_p2">In our secondary school, we offer a comprehensive curriculum that includes a range
                     of subjects, including
@@ -179,26 +202,38 @@
                 <a href="#" class="fa fa-twitter"></a>
             </div>
         </div>
-
-        <div class="foot-middle">
-            <h1>Administration</h1>
-            <ul>
+        <div class="foot-section-3">
+            <div class="foot-middle">
+                <h1>Administration</h1>
                 <ul>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Scholarship</a></li>
-                    <li><a href="admission.html">Admission</a></li>
+                    <ul>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="">Scholarship</a></li>
+                        <li><a href="admission.html">Admission</a></li>
+                    </ul>
                 </ul>
-            </ul>
-        </div>
-        <div class="foot-right">
-            <h1>Support</h1>
-            <ul>
+            </div>
+            <div class="foot-right">
+                <h1>Support</h1>
                 <ul>
-                    <li><a href="">FAQs</a></li>
-                    <li><a href="">Support center</a></li>
-                    <li><a href="">Contact us</a></li>
+                    <ul>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Support center</a></li>
+                        <li><a href="contactus.html">Contact us</a></li>
+                    </ul>
                 </ul>
-            </ul>
+            </div>
+            <div class="righttty">
+                <h1>Quick Link</h1>
+                <div class="list-item">
+                    <ul>
+                        <li><a href="">Admission</a></li>
+                        <li><a href="">Sport event</a></li>
+                        <li><a href="">The office of the principal</a></li>
+                        <li><a href="">Student portal</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
     <div class="down-down">
@@ -214,7 +249,13 @@
             </div>
         </div>
     </div>
+
     <script src="main.js"></script>
 </body>
+
+<div class="arrow-up">
+    <a class="arrow-images" href="#top"><img src="https://i.postimg.cc/1zkzDXkY/image-removebg-preview.png"
+            alt="" /></a>
+</div>
 
 </html>

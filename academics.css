@@ -3,69 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-}
 
-body {
-  max-width: 1440px;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #fdfdfe;
-}
-
-/* header part */
-header {
-  width: 100%;
-}
-
-/* Navigation in header */
-nav {
-  display: flex;
-  justify-content: space-between;
-
-  padding: 20px 50px;
-  align-items: center;
-  width: 70%;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 34px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-.nagivation {
-  width: 100%;
-
-  display: flex;
-  justify-content: space-between;
-}
-nav a {
-  text-decoration: none;
-  color: #8e98a8;
-  transition: background-color, color;
-}
-nav a:hover {
-  background-color: yellow;
-  border-radius: 10px;
-  padding: 10px 20px;
-  color: green;
-  cursor: pointer;
-}
-
-/* header logo */
-.head-pic {
-  width: 20%;
-  padding-left: 50px;
-}
-.head-pic img {
-  width: 80%;
-}
-.hamburger {
-  display: none;
-}
 
 /* Image and heading at the top of page.  */
 .academicImage{
@@ -420,47 +358,7 @@ button img{
     margin: 10% auto 8% auto;
 }
 
-
-@media screen and (max-width: 1175px) {
-    
-    nav {
-      font-size: 16px;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;      
-        padding: 20px 50px;
-        align-items: center;
-        width: 40%;
-        font-size: 28px;
-        font-weight: 700;
-        line-height: 34px;
-        letter-spacing: 0em;
-        text-align: left;
-      }
-    }
-  
   @media screen and (max-width: 912px) {
-
-    nav {
-        font-size: 16px;
-          display: flex;
-          justify-content: space-between;
-          flex-direction: column;      
-          padding: 20px 50px;
-          align-items: center;
-          width: 40%;
-          font-size: 28px;
-          font-weight: 700;
-          line-height: 34px;
-          letter-spacing: 0em;
-          text-align: left;
-        }
-
-    .hamburger{
-        display: block;
-        cursor: pointer;         
-    }
-
     .academicImage{
         display: flex;
         width: 100%;
@@ -661,11 +559,13 @@ button img{
         display: block;
         background-color:black;
         margin-top: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
         width: 137.5px;        
         height: 3px;
       }
 
-      /* Admissions styling */
+      /* Admissions page styling */
 
     .admissionInfo{
         display: flex;
