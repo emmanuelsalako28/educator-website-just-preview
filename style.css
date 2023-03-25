@@ -544,7 +544,7 @@ footer {
 .foot-left {
   padding-left: 5%;
   /* padding-top: 4%; */
-  width: 30%;
+  width: 25%;
 }
 
 .foot-images {
@@ -570,7 +570,7 @@ footer {
   line-height: 1px;
   letter-spacing: 0em;
   text-align: left;
-  padding-left: 9%; 
+  padding-left: 9%;
   color: #83ab23;
   padding-top: 0px;
 }
@@ -1028,7 +1028,7 @@ hr.new1 {
   }
   #mobile-pic {
     display: flex;
-    width: 100%;
+    width: 95%;
     /* padding-left: 10%; */
     filter: brightness(60%);
   }
@@ -1451,7 +1451,8 @@ hr.new1 {
   }
   .foot-left {
     width: 30%;
-    padding-top: 3%;
+    padding-top: 1%;
+    padding-left: 0px;
   }
   .foot-images {
     width: 100%;
@@ -1461,9 +1462,10 @@ hr.new1 {
   }
   .foot-section-3 {
     width: 65%;
+   
     display: flex;
     justify-content: space-between;
-    padding-top: 6%;
+    padding-top: 10%;
   }
   .foot-middle h1 {
     font-family: Manrope;
@@ -1475,9 +1477,9 @@ hr.new1 {
   }
   .foot-middle li {
     font-family: Manrope;
-    font-size: 7px;
+    font-size: 8px;
     font-weight: 500;
-    line-height: 9px;
+    line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
   }
@@ -1491,9 +1493,9 @@ hr.new1 {
   }
   .foot-right li {
     font-family: Manrope;
-    font-size: 7px;
+    font-size: 8px;
     font-weight: 500;
-    line-height: 9px;
+     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
   }
@@ -1507,11 +1509,15 @@ hr.new1 {
   }
   .righttty li {
     font-family: Manrope;
-    font-size: 7px;
+    font-size: 8px;
     font-weight: 500;
-    line-height: 9px;
+     line-height: 13px;
     letter-spacing: 0em;
+  
     text-align: left;
+  }
+  #office{
+    font-size: 7px;
   }
   .faaa {
     padding-left: 10px;
@@ -1519,9 +1525,9 @@ hr.new1 {
     display: flex;
   }
   .fa {
-    padding: 20px;
+    padding: 15%;
 
-    width: 10px;
+    width: 20%;
 
     text-decoration: none;
 
@@ -1529,12 +1535,13 @@ hr.new1 {
   }
   .foot-left p {
     font-family: Inter;
-    font-size: 4px;
+    font-size: 7px;
     font-style: italic;
     font-weight: 600;
     line-height: 5px;
+    width: 100%;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
   }
   .list-item ul {
     list-style-type: none;
